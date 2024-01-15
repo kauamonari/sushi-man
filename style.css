@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&family=Inter:wght@500;600&family=Montserrat:wght@800&family=Quicksand:wght@300;400;500&family=Teko:wght@600&family=Vampiro+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgba(239, 58, 1, 0.65);
+    max-width: 1280px 800px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.header{
+    margin: 2.5rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    text-align: top;
+    justify-content: space-between;
+}
+   
+  
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+ 
+}
+
+.logo-img{
+    width: 72px;
+    height: 72px;
+}
+
+.logo-texto{
+    font-size: 25px;
+    font-family: 'vampiro one';
+}
+
+.menu-lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 56px;
+    font-family: 'quicksand';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.login{
+    font-family: "quicksand";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button{
+    position: absolute;
+    top: 650px;
+    padding: 1.5rem 5rem;
+    border-radius: 32px;
+    background: #f4970c;
+    border-style: none;
+    font-size: 16px ;
+    font-weight: 700;
+    -webkit-box-shadow: 7px 12px 32px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow: 7px 12px 32px -10px rgba(0,0,0,0.7);
+    box-shadow: 7px 12px 32px -10px rgba(0,0,0,0.7);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: #fcb449;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+}
+
+.texto-h1{
+    font-family: 'vampiro one';
+    font-size: 62px;
+}
+
+.texto-p{
+    font-family: 'quicksand';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: top;
+   
+
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    
+}
+
+.stars{
+    position: absolute;
+    z-index: -1;
+    top: 180px;
+    right: 65px;
+}
+
+.perso{
+    position: absolute;
+    top: 250px;
+}
