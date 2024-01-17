@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&family=Inter:wght@500;600&family=Montserrat:wght@800&family=Quicksand:wght@300;400;500&family=Teko:wght@600&family=Vampiro+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(239, 58, 1, 0.65);
+    margin: 0rem 2.5rem;
+
+}
+
+.container-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.h1-header{
+    font-family: 'Vampiro One', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.container-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.container-box{
+    display: inline-block;
+    flex-direction: column;
+    background: #fff;
+    padding: 55px;
+}
+
+.emoji{
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.ul-box{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 12px;
+    
+}
+
+.ul-box p {
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.temaki{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    left: -40px;
+    z-index: -1;
+}
+
+
+
+
+.container-layout-2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.container-box-2{
+    display: inline-block;
+    flex-direction: column;
+    background: #fff;
+    padding: 55px;
+}
+
+.emoji-2{
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.ul-box-2{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 12px;
+    
+}
+
+.ul-box-2 p {
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.temaki-2{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    left: 40px;
+    z-index: -1;
+}
+
+.mt{
+    margin-top: 100px;
+}
+
+.mb{
+    margin-bottom: 100px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.header{
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    text-align: top;
+    justify-content: space-between;
+}
+   
+  
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+ 
+}
+
+.logo-img{
+    width: 72px;
+    height: 72px;
+}
+
+.logo-texto{
+    font-size: 25px;
+    font-family: 'vampiro one';
+}
+
+.menu-lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 56px;
+    font-family: 'quicksand';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.login{
+    font-family: "quicksand";
+    font-size: 24px;
+    font-weight: 700;
+}
